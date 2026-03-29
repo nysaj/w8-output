@@ -1,5 +1,5 @@
 h2 {
-  margin:0;
+  margin: 0;
 }
 
 .section-grid {
@@ -67,9 +67,10 @@ form button {
 }
 
 .login-form {
-  margin: 0px;
-  padding: 30px;
+  margin: 0 auto;
+  padding: 40px;
   background-color: #ccc;
+  max-width: 480px;
 }
 
 .form-title {
@@ -86,7 +87,7 @@ form button {
   font-weight: bold;
 }
 #email {
-  width: 50%;
+  width: 100%;
   height: 40px;
   border-radius: 5px;
   border-color: #333;
@@ -103,7 +104,7 @@ form button {
   font-weight: bold;
 }
 #password {
-  width: 50%;
+  width: 100%;
   height: 40px;
   border-radius: 5px;
   border-color: #333;
@@ -115,7 +116,7 @@ form button {
 #submit {
   margin: 0 0 20px;
   padding: 10px;
-  width: 50%;
+  width: 100%;
   height: 40px;
   font-weight: bold;
   font-size: 16px;
