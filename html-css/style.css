@@ -1,3 +1,11 @@
+h2 {
+  margin:0;
+}
+
+.section-grid {
+  margin-bottom: 30px;
+}
+
 .grid {
   display: flex;
 }
@@ -59,13 +67,15 @@ form button {
 }
 
 .login-form {
-  margin: 30px 0px;
+  margin: 0px;
   padding: 30px;
   background-color: #ccc;
 }
 
 .form-title {
   margin: 0 0 20px;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .form-email {
