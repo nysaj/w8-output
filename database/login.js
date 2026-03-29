@@ -1,7 +1,7 @@
 // email,password,formの要素を取得
 const $emailInput = document.getElementById("email");
 const $passwordInput = document.getElementById("password");
-const $loginForm = document.querySelector("form");
+const $loginForm = document.getElementById("login-form");
 
 // Sign in時にlocalStorageにデータを保存
 $loginForm.addEventListener("submit", (e) => {
